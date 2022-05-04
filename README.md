@@ -16,3 +16,17 @@ example minikube ingress
     minikube ip
 
     # Create an ingress that points at this IP
+
+## Deploy
+'''bash
+kubectl apply -f https://raw.githubusercontent.com/mjbower/minikube-ingress/main/k8s/apples.yaml
+'''
+
+
+'''bash
+kubectl apply -f https://raw.githubusercontent.com/mjbower/minikube-ingress/main/k8s/bananas.yaml
+'''
+
+'''bash
+kubectl apply -f https://raw.githubusercontent.com/mjbower/minikube-ingress/main/k8s/ingress.yaml
+'''
